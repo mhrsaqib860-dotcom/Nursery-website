@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.9vw;
+}
+html::-webkit-scrollbar-track{
+    background: #343A40;
+}
+html::-webkit-scrollbar-thumb{
+    background: #ABD8C2;
+}
+html::-webkit-scrollbar-thumb:hover{
+    background: #7ce4b2;
+}
+.nav-link{
+    font-size: 18px !important;
+    transition: all 0.3s;
+    color: whitesmoke !important;
+}
+.nav-link:hover{
+    color: #7ce4b2 !important;
+    transform: scale(1.1);
+    text-decoration: overline !important;
+
+}
+.carousel-indicators{
+    background: rgba(0, 0, 0, 0.411) !important;
+    border-radius: 24px;
+}
+.sec-title{
+    font-size: 40px;
+
+}
+
+div#categories img{
+transition: all 0.3s;
+}
+
+div#categories img:hover{
+    transform: scale(1.05);
+   filter: saturate(30%);
+}
+div#categories a{
+    text-decoration: none !important;
+    color: #1E1E1E;
+    transition: all 0.2s;
+}
+div#categories a:hover{
+    color: #7ce4b2;
+}
+#featured-plant-carousle img{
+    max-height: 192px;
+}
+
+.services-item{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    border-radius: 10px;
+    /* border: solid red; */
+transition: all 0.3s;
+}
+#services{
+    background-color: whitesmoke;
+}
+.services-item:hover{
+    /* transform: scale(1.05); */
+    box-shadow: #3A9A6D 0px 5px 15px 0px;
+}
+.services-item img{
+    max-height: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 300px;
+}
+
+.services-item button{
+    display: block !important;
+    background-color: #3A9A6D;
+    border: none;
+    width: 123 !important;
+    height: 39 !important;
+    border-radius: 34px ;
+    padding: 10px 24px;
+    transition: all 0.3s;
+}
+.services-item button:hover{
+    background-color: #198151;
+}
+.bg-image{
+    background: url(../res/img/What-We-Do/back.png);
+}
+
+#WhatWeDo p{
+    position: relative;
+    top: 80px;
+    color: rgb(26, 26, 26);
+}
+
+
+.product-items{
+    border-radius: 05px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    transition: all 0.3s;
+}
+.product-items:hover{
+    box-shadow: #76ffbd 0px 0px 15px 0px, #76ffbd 0px 0px 0px 1px;
+}
+#products .product-items img{
+   
+    padding-top: 10px;
+    max-height: 192px;
+    transition: all 0.3s;
+}
+#products .product-items img:hover{
+    transform: scale(1.1);
+}
+.product-items a{
+    overflow: hidden;
+    color: #3A9A6D;
+    transition: all 0.3s;
+}
+.product-items a:hover{
+    color: #198151;
+}
+
+
+form button{
+    color: #3A9A6D !important;
+    border: 1px solid #3A9A6D !important;
+    transition: all 0.3s;
+}
+form button:hover{
+    color: white !important;
+    background: #3A9A6D !important;
+}
+
+footer hr{
+    width: 100%;
+    border: 1px solid white;
+}
+
+footer .social-media svg{
+  
+    transition: all 0.3s;
+    /* filter: saturate(40%); */
+}
+
+footer .social-media svg:hover{
+    /* transform: scale(1.2); */
+    filter: saturate(100%) !important;
+   transform: rotate(360deg) scale(1.1);
+}
+
